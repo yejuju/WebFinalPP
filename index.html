@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction</title>
+
+  <script language="JavaScript">
+    // Scrolling status bar text (legacy functionality, may not work in modern browsers)
+    var scrlStr = "Dream"
+    var width = 100;
+    var strLen = scrlStr.length;
+    var pos = 1 - width;
+    function type() {
+      var type = "";
+      pos++;
+      if (pos == strLen)
+        pos = 1 - width;
+      if (pos < 0) {
+        for (var i = 1; i <= Math.abs(pos); i++)
+          type = type + "";
+        type = type + scrlStr.substring(0, width - i + 1);
+      } else {
+        type = type + scrlStr.substring(pos, pos + width);
+      }
+      window.status = type;
+      setTimeout(type, 25);
+    }
+    // type(); // Uncomment if you still want to run this
+  </script>
+
+  <script>
+    // // Title animation script
+    // var repeat = 1
+    // var title = document.title
+    // var leng = title.length
+    // var start = 1
+    // function titlemove() {
+    //   var titl = title.substring(start, leng) + title.substring(0, start)
+    //   document.title = titl
+    //   start++
+    //   if (start == leng + 1) {
+    //     start = 0
+    //     if (repeat == 0) return
+    //   }
+    //   setTimeout(titlemove, 120)
+    // }
+    // if (document.title) titlemove()
+  </script>
+
+  <script type="text/javascript" src="http://www.marisaolson.com/js/moveobj.js"></script>
+  <script type="text/javascript">
+    function pagestart() {
+      flyimage1 = new Chip("flyimage1", 47, 68);
+      flyimage2 = new Chip("flyimage2", 47, 68);
+      flyimage3 = new Chip("flyimage3", 47, 68);
+      flyimage4 = new Chip("flyimage4", 47, 68);
+      flyimage5 = new Chip("flyimage5", 47, 68);
+      flyimage6 = new Chip("flyimage6", 47, 68);
+      flyimage7 = new Chip("flyimage7", 47, 68);
+      flyimage8 = new Chip("flyimage8", 47, 68);
+      flyimage9 = new Chip("flyimage9", 47, 68);
+      flyimage10 = new Chip("flyimage10", 47, 68);
+      flyimage11 = new Chip("flyimage11", 47, 68);
+      flyimage12 = new Chip("flyimage12", 47, 68);
+      flyimage13 = new Chip("flyimage13", 47, 68);
+      flyimage14 = new Chip("flyimage14", 47, 68);
+      flyimage15 = new Chip("flyimage15", 47, 68);
+      flyimage16 = new Chip("flyimage16", 47, 68);
+      flyimage17 = new Chip("flyimage17", 47, 68);
+      flyimage18 = new Chip("flyimage18", 47, 68);
+      flyimage19 = new Chip("flyimage19", 47, 68);
+      flyimage20 = new Chip("flyimage20", 47, 68);
+      flyimage21 = new Chip("flyimage21", 47, 68);
+      flyimage22 = new Chip("flyimage22", 47, 68);
+      flyimage23 = new Chip("flyimage23", 47, 68);
+      flyimage24 = new Chip("flyimage24", 47, 68);
+      flyimage25 = new Chip("flyimage25", 47, 68);
+      flyimage26 = new Chip("flyimage26", 47, 68);
+      flyimage27 = new Chip("flyimage27", 47, 68);
+      flyimage28 = new Chip("flyimage28", 47, 68);
+      flyimage29 = new Chip("flyimage29", 47, 68);
+      flyimage30 = new Chip("flyimage30", 47, 68);
+      flyimage31 = new Chip("flyimage31", 47, 68);
+
+      movechip("flyimage1");
+      movechip("flyimage2");
+      movechip("flyimage3");
+      movechip("flyimage4");
+      movechip("flyimage5");
+      movechip("flyimage6");
+      movechip("flyimage7");
+      movechip("flyimage8");
+      movechip("flyimage9");
+      movechip("flyimage10");
+      movechip("flyimage11");
+      movechip("flyimage12");
+      movechip("flyimage13");
+      movechip("flyimage14");
+      movechip("flyimage15");
+      movechip("flyimage16");
+      movechip("flyimage17");
+      movechip("flyimage18");
+      movechip("flyimage19");
+      movechip("flyimage20");
+      movechip("flyimage21");
+      movechip("flyimage22");
+      movechip("flyimage23");
+      movechip("flyimage24");
+      movechip("flyimage25");
+      movechip("flyimage26");
+      movechip("flyimage27");
+      movechip("flyimage28");
+      movechip("flyimage29");
+      movechip("flyimage30");
+      movechip("flyimage31");
+    }
+
+    if (window.addEventListener)
+      window.addEventListener("load", pagestart, false)
+    else if (window.attachEvent)
+      window.attachEvent("onload", pagestart)
+    else if (document.getElementById)
+      window.onload = pagestart
+  </script>
+
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      /* Remove if you want scrollbars */
+    }
+
+
+    table,
+    td {
+      background-color: black;
+      color: black;
+    }
+
+    /* Example of using relative units to make positions scale better */
+    #flyimage1,
+    #flyimage2,
+    #flyimage3,
+    #flyimage4,
+    #flyimage5,
+    #flyimage6,
+    #flyimage7,
+    #flyimage8,
+    #flyimage9,
+    #flyimage10,
+    #flyimage11,
+    #flyimage12,
+    #flyimage13,
+    #flyimage14,
+    #flyimage15,
+    #flyimage16,
+    #flyimage17,
+    #flyimage18,
+    #flyimage19,
+    #flyimage20,
+    #flyimage21,
+    #flyimage22,
+    #flyimage23,
+    #flyimage24,
+    #flyimage25,
+    #flyimage26,
+    #flyimage27,
+    #flyimage28,
+    #flyimage29,
+    #flyimage30,
+    #flyimage31  {
+      position: absolute;
+    }
+
+    /* Modify as needed, for example:
+           Instead of fixed px, consider using vw/vh for responsiveness:
+           left: 10vw; top: 5vh; etc.
+        */
+    /* #flyimage1 {
+      left: 10vw;
+      top: 1vh;
+      width: 10vw;
+    }
+
+    #flyimage2 {
+      left: 2vw;
+      top: 50vh;
+      width: 5vw;
+    }
+
+    #flyimage3 {
+      left: 1vw;
+      top: 10vh;
+      width: 3vw;
+    } */
+
+    /* Add similar conversions to other elements as needed */
+
+    /* Define the animation */
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Apply the animation to the image */
+    #flyimage4 img {
+      animation: rotate 2s linear infinite;
+      /* rotate every 2 seconds, continuously */
+      transform-origin: center;
+      /* ensure rotation occurs around the image's center */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <div align="center">
+    <p><a href="images/background.jpg" target="blank"><img src="images/background.jpg" border="0"></a>
+    </p>
+  </div> -->
+
+  <div id="flyimage1">
+    <img src="images/pg18.gif" width="150" height="150" border="0">
+  </div>
+
+  <div id="flyimage2">
+    <img src="images/borboletas-butterfly.gif" width="200" height="200"border="0">
+  </div>
+
+  <div id="flyimage3">
+    <img src="images/shape-15719_256.gif" width="100" height="100" border="0" alt="Resized GIF">
+
+  </div>
+
+  <div id="flyimage4">
+    <img src="images/frog-9656_256.gif" width="80" height="80" border="0">
+  </div>
+
+  <div id="flyimage5">
+    <img src="images/rabbit.webp" width="500" height="500" border="0">
+  </div>
+
+  <div id="flyimage6">
+    <img src="images/beauty.webp" width="200" height="200" border="0"> 
+  </div>
+
+  <div id="flyimage7">
+    <img src="images/star.webp" width="100" height="100" border="0">
+  </div>
+
+  <div id="flyimage8">
+    <img src="images/starstar.webp" width="200" height="200" border="0">
+  </div>
+
+  <div id="flyimage9">
+    <img src="images/star.webp" width="300" height="300" border="0">
+  </div>
+
+  <div id="flyimage10">
+    <img src="images/unicorn.webp" width="400" height="400" border="0">
+  </div>
+
+  <div id="flyimage11">
+    <img src="images/unicorn1.webp" width="300" height="300" border="0">
+  </div>
+
+  <div id="flyimage12">
+    <img src="images/angle.gif" border="0">
+  </div>
+
+  <div id="flyimage13">
+    <img src="images/micky.webp" width="200" height="200" border="0">
+  </div>
+
+  <div id="flyimage14">
+    <img src="images/moon.webp" width="90" height="90" border="0">
+  </div>
+
+  <div id="flyimage15">
+    <img src="images/pillow.webp" width="50" height="50" border="0">
+  </div>
+
+  <div id="flyimage16">
+    <img src="images/heart.webp" width="100" height="100" border="0">
+  </div>
+
+  <div id="flyimage17">
+    <img src="images/heart.webp" width="200" height="200" border="0">
+  </div>
+
+  <div id="flyimage18">
+    <img src="images/heart.webp" width="70" height="70" border="0">
+  </div>
+
+  <div id="flyimage19">
+    <img src="images/sweetdreams.webp" width="200" height="200" border="0">
+  </div>
+
+  <div id="flyimage20">
+    <img src="images/cloud.webp" width="200" height="200" border="0">
+  </div>
+
+  <div id="flyimage21">
+    <img src="images/angle.webp" width="200" height="200" border="0">
+  </div>
+
+  <div id="flyimage22">
+    <img src="images/cloud2.webp" width="300" height="300" border="0">
+  </div>
+
+  <div id="flyimage23">
+    <img src="images/heart2.webp" width="300" height="200" border="0">
+  </div>
+
+  <div id="flyimage24">
+    <img src="images/pg18.gif" width="100" height="100" border="0">
+  </div>
+
+  <div id="flyimage25">
+    <img src="images/star.webp" width="500" height="400" border="0">
+  </div>
+
+  <div id="flyimage26">
+    <img src="images/ghost.webp" width="60" height="60" border="0">
+  </div>
+
+  <div id="flyimage27">
+    <img src="images/god.webp" width="150" height="150" border="0">
+  </div>
+
+  <div id="flyimage28">
+    <img src="images/star.webp" width="500" height="400" border="0">
+  </div>
+
+  <div id="flyimage29">
+    <img src="images/cloud3.webp" width="500" height="500" border="0">
+  </div>
+
+  <div id="flyimage30">
+    <img src="images/bird.webp" width="400" height="400" border="0">
+  </div>
+
+  <div id="flyimage31">
+    <img src="images/snowflake.webp" width="70" height="700" border="0">
+  </div>
+
+  <div id="flyimageX" style="position:absolute; top:0; left:50%; transform:translateX(-50%); z-index:999;">
+    <a href="ReadADream.html">
+      <img src="images/bluecloud.png" width="400" height="300" border="0" alt="Blue Cloud">
+    </a>
+  </div>
+
+
+  <!-- Repeat similar styling changes for other flyimages as desired -->
+
+  <!-- Marquee elements (not responsive, but kept as is) -->
+  <marquee behavior="alternate" direction="down" scrollamount="20">
+    <marquee behavior="alternate" scrollamount="20">
+      <img
+        src="https://web.archive.org/web/20091025081518im_/http://www.geocities.com/la_corsarie/index_archivos/Unicornio.gif">
+    </marquee>
+  </marquee>
+
+  <!-- <marquee behavior="alternate" direction="up" scrollamount="13">
+    <marquee behavior="alternate" scrollamount="13">
+      <img src="file:///Users/yeju/Desktop/yeju%20new%20media%20crash/mywebsite/pg18.gif">
+    </marquee>
+  </marquee> -->
+
+  <!-- <marquee behavior="alternate" direction="down" scrollamount="14">
+    <marquee behavior="alternate" scrollamount="14">
+      <img src="file:///Users/yeju/Desktop/yeju%20new%20media%20crash/mywebsite/angle.gif">
+    </marquee>
+  </marquee> -->
+
+  <marquee behavior="alternate" scrollamount="13">
+    <img src="https://web.archive.org/web/20090804031753im_/http://www.geocities.com/dreamfantasy_2000/pegasus.gif">
+  </marquee>
+
+  <marquee behavior="alternate" direction="down" scrollamount="14">
+    <marquee behavior="alternate" scrollamount="14">
+      <img
+        src="https://web.archive.org/web/20090806125905im_/http://www.geocities.com/bluanner/sleepingbeauty-grandma.gif">
+    </marquee>
+  </marquee>
+
+  <script>
+    // Monitoring performance scripts from the original code - only include if needed
+    'undefined' === typeof _trfq || (window._trfq = []);
+    'undefined' === typeof _trfd && (window._trfd = []);
+    _trfd.push({ 'tccl.baseHost': 'secureserver.net' });
+    _trfd.push({ 'ap': 'cpsh' }, { 'server': 'a2plcpnl0686' });
+  </script>
+  <script src="https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js"></script>
+
+ 
+</body>
+
+</html>
